@@ -12,7 +12,7 @@
   --color-card-bg: #f8f8f8 !important;
   --color-card-bg-hover: #f4f4f4 !important;
   --collection-card-cover-height-small: 160px !important;
-  --quote-background: #e2edff !important;
+  --quote-background: #e8ffac !important;
   --color-ui-hover-bg: #212224 !important;
   /* Database view picker options */
   /* Active colors */
@@ -557,13 +557,6 @@ h3.notion-heading {
     letter-spacing: -0.3px !important;
     color: var(--picker-text-color) !important;
   }
-  .notion-callout.bg-blue-light.border {
-    border-color: transparent;
-    /* position: absolute; */
-    /* top: 150px; */
-    background-color: transparent;
-    width: 100%;
-  }
 }
 
 @media all and (max-width: 768px) {
@@ -576,13 +569,13 @@ h3.notion-heading {
   #page-posts .notion-collection-gallery.medium {
     grid-template-columns: 1fr !important;
   }
-  .notion-callout.bg-blue-light.border {
+  /* .notion-callout.bg-blue-light.border {
     border-color: transparent;
     position: absolute;
     top: 150px;
     background-color: transparent;
     width: 50%;
-  }
+  } */
 }
 
 .notion-collection-page .notion-dropdown__menu-wrapper {
