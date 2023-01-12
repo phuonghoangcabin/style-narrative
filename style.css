@@ -148,6 +148,13 @@ h1.notion-header__title {
   }
 }
 
+.notion-callout.bg-blue-light.border {
+  border-color: transparent !important;
+}
+.notion-callout__icon {
+  display: none !important;
+}
+
 @media screen and (min-width: 768px) {
   .notion-callout.bg-blue-light.border {
     border-color: transparent;
@@ -585,7 +592,7 @@ h3.notion-heading {
   position: absolute;
   top: 120px;
   left: 0;
-  background-color: #3c8349= !important;
+  background-color: #3c8349 !important;
   color: white !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -593,8 +600,4 @@ h3.notion-heading {
 }
 .notion-breadcrumb__divider {
   color: white !important;
-}
-
-.notion-callout__icon {
-  display: none;
 }
