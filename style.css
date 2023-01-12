@@ -537,9 +537,9 @@ h3.notion-heading {
     color: var(--picker-text-color) !important;
   }
   .notion-callout.bg-blue-light.border {
-    border-color: transparent;
+    /* border-color: transparent; */
     /* position: absolute; */
-    /* top: 150px; */
+    top: 150px;
     background-color: transparent;
     width: 100%;
   }
