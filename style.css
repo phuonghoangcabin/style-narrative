@@ -133,6 +133,17 @@ h1.notion-header__title {
     font-size: 2.6rem !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .notion-callout.bg-blue-light.border {
+    border-color: transparent;
+    position: absolute;
+    top: 150px;
+    background-color: transparent;
+    width: 50%;
+  }
+}
+
 h1.notion-header__title * {
   line-height: 1.2 !important;
 }
@@ -525,6 +536,13 @@ h3.notion-heading {
     letter-spacing: -0.3px !important;
     color: var(--picker-text-color) !important;
   }
+  .notion-callout.bg-blue-light.border {
+    border-color: transparent;
+    /* position: absolute; */
+    /* top: 150px; */
+    background-color: transparent;
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -546,5 +564,9 @@ h3.notion-heading {
   position: absolute;
   top: 120px;
   left: 0;
-  background-color: #3c8349;
+  background-color: #3c8349 !important;
+}
+
+.notion-callout__icon {
+  display: none;
 }
