@@ -124,7 +124,7 @@ iframe {
 }
 
 .smith-launcher-frame {
-  background-image: url("../png/fab.png");
+  background-image: url("https://res.cloudinary.com/mycabineatapp/image/upload/v1673563607/nhs/FAB_o8jmqf.png");
   /* box-shadow: 0px 2px 4px rgba(0, 18, 26, 0.08), 0px 2px 16px rgba(0, 18, 26, 0.16); */
 
   background-position: center;
@@ -144,7 +144,7 @@ iframe {
 }
 
 .smith-launcher-frame.active {
-  background-image: url("../png/fab-close.png");
+  background-image: url("https://res.cloudinary.com/mycabineatapp/image/upload/v1673563767/nhs/FAB-close_bki63y.png");
 }
 
 .smith-launcher-frame:hover {
