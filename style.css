@@ -290,7 +290,7 @@ h3.notion-heading {
 }
 
 .notion-collection-gallery.medium {
-  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-columns: 1fr 1fr !important;
 }
 .notion-collection-gallery.medium .notion-collection-card__content {
   padding: 16px !important;
